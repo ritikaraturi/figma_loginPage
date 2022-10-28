@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(BG.png);
+    background-image: url(static/BG.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(43, 71, 185);
