@@ -11,12 +11,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+
 }
 
 .main{
     height: 398px;
     width: 300px;
+   
     /* border: 1px solid black; */
 }
 
@@ -71,3 +75,16 @@ button{
     color:white
 }
 
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
